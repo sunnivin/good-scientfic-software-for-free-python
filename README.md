@@ -12,3 +12,11 @@ Activate the virtual environment
 You can run `pre-commit` on all files with the command
 
     (pre-commit) sunnivin@NGI-R910LQ9W:~/NGI/pre-commit(main)$ pre-commit run --all-files
+
+
+The set-up in this repositroy has been successfully tested with windows terminal for ubuntu-20.04 and windows power shell. 
+
+Dependency:
+- pipenv 
+- pyenv 
+- For windows: Microfost visual c++ 14.0 or greater 
