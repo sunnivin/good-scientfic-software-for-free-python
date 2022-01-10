@@ -20,12 +20,15 @@ You can run `pre-commit` on all files with the command
 
 The set-up in this repositroy has been successfully tested with windows terminal for ubuntu-20.04 and windows power shell 7.
 
-Dependency:
+### Usage on windows: 
+On Windws `pipenv shell` could spawn CMD. If CMD is not your perferred terminal you can fix this error by setting an environmental variable called `PIPENV_SHELL`
+```
+$Env:PIPENV_SHELL = "powershell"
+```
+Read more about why [here](https://github.com/pypa/pipenv/issues/4264).
 
+## Dependencies:
 - pipenv
 - pyenv
-- For windows: Microfost visual c++ 14.0 or greater
-
-Running on windows: 
-
-On Windows `pipenv shell` could spawn CMD. If CMD is not your perferred terminal you can fix this error by setting an environmental variable called `PIPENV_SHELL`. Read more about this [h](https://github.com/pypa/pipenv/issues/4264)ere.
+    - For windows: Microsoft visual c++ 14.0 or greater
+    - PowerShell 7 
