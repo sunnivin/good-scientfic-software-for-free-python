@@ -5,18 +5,27 @@ This repo contains an example set-up for using pre-commit hooks with your python
 The file `.pre-commit-config.yaml` controls the type of pre-commit you are currently using. There exists [several](https://towardsdatascience.com/pre-commit-hooks-you-must-know-ff247f5feb7e) ways to do automatic formatting with Python. This is just an example.
 
 ## Usage
+
 Activate the virtual environment
 
-    sunnivin@NGI-R910LQ9W:~/NGI/pre-commit(main)$ pipenv shell
+```
+sunnivin@NGI-R910LQ9W:~/NGI/pre-commit(main)$ pipenv shell
+```
 
 You can run `pre-commit` on all files with the command
 
-    (pre-commit) sunnivin@NGI-R910LQ9W:~/NGI/pre-commit(main)$ pre-commit run --all-files
+```
+(pre-commit) sunnivin@NGI-R910LQ9W:~/NGI/pre-commit(main)$ pre-commit run --all-files
+```
 
-
-The set-up in this repositroy has been successfully tested with windows terminal for ubuntu-20.04 and windows power shell. 
+The set-up in this repositroy has been successfully tested with windows terminal for ubuntu-20.04 and windows power shell 7.
 
 Dependency:
-- pipenv 
-- pyenv 
-- For windows: Microfost visual c++ 14.0 or greater 
+
+- pipenv
+- pyenv
+- For windows: Microfost visual c++ 14.0 or greater
+
+Running on windows: 
+
+On Windows `pipenv shell` could spawn CMD. If CMD is not your perferred terminal you can fix this error by setting an environmental variable called `PIPENV_SHELL`. Read more about this [h](https://github.com/pypa/pipenv/issues/4264)ere.
