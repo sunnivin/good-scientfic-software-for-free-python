@@ -18,7 +18,7 @@ You can run `pre-commit` on all files with the command
 (pre-commit) sunnivin@NGI-R910LQ9W:~/NGI/pre-commit(main)$ pre-commit run --all-files
 ```
 
-The set-up in this repositroy has been successfully tested with windows terminal for ubuntu-20.04 and windows power shell 7.
+The set-up in this repositroy has been successfully tested with windows terminal for ubuntu-20.04 and windows powershell 5.2.
 
 ### Usage on windows: 
 On Windws `pipenv shell` could spawn CMD. If CMD is not your perferred terminal you can fix this error by setting an environmental variable called `PIPENV_SHELL`
@@ -30,5 +30,6 @@ Read more about why [here](https://github.com/pypa/pipenv/issues/4264).
 ## Dependencies:
 - pipenv
 - pyenv
-    - For windows: Microsoft visual c++ 14.0 or greater
-    - PowerShell 7 
+    - For windows: 
+        -Microsoft visual c++ 14.0 or greater
+        - PowerShell 5.2 
