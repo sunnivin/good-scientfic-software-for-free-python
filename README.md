@@ -21,7 +21,7 @@ sunnivin@NGI-R910LQ9W:~/NGI/pre-commit(main)$ pipenv shell
 ```
 To later bypass the hook use the `--no-verify` option 
 ```
-(pre-commits-python-example)sunnivin@NGI-R910LQ9W:~/NGI/pre-commit(main)$ git commit . -m "wip: quick fix of data" --no-verify
+(pre-commits-python-example)sunnivin@NGI-R910LQ9W:~/NGI/pre-commit(main)$ git commit -m "wip: quick fix of data" --no-verify
 ```
 
 ### Manual run 
@@ -30,7 +30,7 @@ You can do a manual `pre-commit` run on all files with the command
 (pre-commits-python-example)sunnivin@NGI-R910LQ9W:~/NGI/pre-commit(main)$ pre-commit run --all-files
 ```
 
-The set-up in this repositroy has been successfully tested with windows terminal for ubuntu-20.04 and windows powershell 5.2.
+
 
 ### Usage on windows:
 
@@ -48,8 +48,12 @@ Run `pipenv run pwsh` instead of running `pipenv shell` to start a virtual envir
 ## Dependencies:
 - pipenv
 - pyenv
-    - For windows 10:
-        -Microsoft visual c++ 14.0 or greater
-        - PowerShell 5.2
-        - PowerShell 7.2.1 
-        - cmd 
+- For windows 10:
+    -Microsoft visual c++ 14.0 or greater
+
+## Tested on 
+Works successfully on 
+- WSL2, Ubuntu 20.04 
+- PowerShell 5.2
+- PowerShell 7.2.1 
+- cmd 
