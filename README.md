@@ -14,23 +14,23 @@ Start with activating the virtual environment and installing needed packages fro
 C:\Users\SuI\pre-commits-python-example (main)
 PS>poetry shell
 C:\Users\SuI\pre-commits-python-example (main)
-(pre-commits-python-example-py3.10) poetry install
+(pre-commits-python-example-py3.11) poetry install
 ```
 
 ### Automatic run each time you try to commit something
 ```
 C:\Users\SuI\pre-commits-python-example (main)
-(pre-commits-python-example-py3.10) pre-commit install
+(pre-commits-python-example-py3.11) pre-commit install
 ```
 To later bypass the hook use the `--no-verify` option
 ```
 C:\Users\SuI\pre-commits-python-example (main)
-(pre-commits-python-example-py3.10) git commit -m "wip: quick fix of data" --no-verify
+(pre-commits-python-example-py3.11) git commit -m "wip: quick fix of data" --no-verify
 ```
 
 ### Manual run
 You can do a manual `pre-commit` run on all files with the command
 ```
 (C:\Users\SuI\pre-commits-python-example (main)
-(pre-commits-python-example-py3.10) pre-commit run --all-files
+(pre-commits-python-example-py3.11) pre-commit run --all-files
 ```
